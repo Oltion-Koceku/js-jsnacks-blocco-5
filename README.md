@@ -32,4 +32,4 @@ La funzione ritornerà un nuovo array con i valori che hanno la posizione compre
   - creiamo una costante booleana
   - con un ciclo while facciamo stampare un promt 
   - con un if creiamo una vlidazione stringa 
-  - infine usiamo .rerverse per capovolgere la stringa  
+  - infine usiamo .split .rerverse e .join per capovolgere la stringa e aggiungerla in una variabile let 
