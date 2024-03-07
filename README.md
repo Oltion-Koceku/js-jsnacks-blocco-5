@@ -37,3 +37,9 @@ La funzione ritornerà un nuovo array con i valori che hanno la posizione compre
   - creiamo due Array con lo stesso numero di elementi
   - con un ciclo ForEach prendiamo un array troviamo l'elemento e l'index
   - in fine pushiamo dentro un arrey vuoto allinterno dello scope 
+5. Snack 5:
+  -  definiamo le nostre variabili e l'array in costanti globali
+  - creiamo un array vuoto
+  - con un ciclo foreach dell'array popolato
+  - con un if distinguiamo se gli elementi dell'array sono compresi tra a e b
+  - pushiamo il resto dentro l'arrey vuoto 
