@@ -23,3 +23,8 @@ La funzione ritornerà un nuovo array con i valori che hanno la posizione compre
   - Creo un array di oggetti
   - creo una variabile let somma che ha come numero 0
   -  Con un ciclo forEach prendiamo il peso di tutte le zucchine e le sommaimo alla variabile
+2. Snack 2:
+  - Creo un array di oggetti
+  - creo due variabili let somma che hanno come numero 0.
+  -  Con un ciclo forEach prendiamo la lunghezza di tutte le zucchine e le aggiungiamo in un array in base alla lunghezza
+  - sommo poi i due array nelle rispettive variabili.
