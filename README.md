@@ -28,3 +28,8 @@ La funzione ritornerà un nuovo array con i valori che hanno la posizione compre
   - creo due variabili let somma che hanno come numero 0.
   -  Con un ciclo forEach prendiamo la lunghezza di tutte le zucchine e le aggiungiamo in un array in base alla lunghezza
   - sommo poi i due array nelle rispettive variabili.
+3. Snack 3:
+  - creiamo una costante booleana
+  - con un ciclo while facciamo stampare un promt 
+  - con un if creiamo una vlidazione stringa 
+  - infine usiamo .rerverse per capovolgere la stringa  
