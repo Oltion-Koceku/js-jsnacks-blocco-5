@@ -35,5 +35,5 @@ La funzione ritornerà un nuovo array con i valori che hanno la posizione compre
   - infine usiamo .split .rerverse e .join per capovolgere la stringa e aggiungerla in una variabile let 
 4. Snack 4:
   - creiamo due Array con lo stesso numero di elementi
-  - con un ciclo foreach prendiamo i due array e li cicliamo con index
-  - li pushamo in fine in un nuovo array  
+  - con un ciclo map prendiamo un array troviamo l'elemento e l'index
+  - in fine con return fonmdiamo l'elemento e il secondo array con indice
