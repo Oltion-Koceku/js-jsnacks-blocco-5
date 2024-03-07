@@ -3,9 +3,6 @@ const lettere = ["a", "b", "c", "d"];
 
 arrayLN(numeri, lettere)
 
-console.log(numeriLettere);
-
-
 function arrayLN(a, b) {
   const numeriLettere = []
   a.forEach((element, index) => {
