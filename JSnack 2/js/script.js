@@ -54,15 +54,19 @@ const zucchine =
 
 let sommaInferiore = 0;
 let sommaMaggiore = 0;
-zucchine.map((zucchina) =>{
-  if(zucchina.lunghezza >= 15){
-    sommaInferiore += zucchina.peso;
-  }
-})
+// zucchine.map((zucchina) =>{
+//   if(zucchina.lunghezza >= 15){
+//     sommaInferiore += zucchina.peso;
+//   }
+//   if(zucchina.lunghezza < 15){
+//     sommaMaggiore += zucchina.peso;
+//   }
+// })
 
-zucchine.map((zucchina) => {
-  if(zucchina.lunghezza < 15){
-    sommaMaggiore += zucchina.peso;
-  }
-})
+const arrayInferiore = zucchine.filter(zucchina => zucchina.lunghezza >= 15)
+const arrayMaggiore = zucchine.filter(zucchina => zucchina.lunghezza < 15)
+
+arrayInferiore.forEach((elemento) => sommaInferiore += elemento.peso)
+arrayMaggiore.forEach((elemento) => sommaMaggiore+= elemento.peso)
+
 console.log(sommaInferiore, sommaMaggiore);

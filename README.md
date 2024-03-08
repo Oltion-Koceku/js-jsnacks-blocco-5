@@ -42,4 +42,5 @@ La funzione ritornerà un nuovo array con i valori che hanno la posizione compre
   - creiamo un array vuoto
   - con un ciclo foreach dell'array popolato
   - con un if distinguiamo se gli elementi dell'array sono compresi tra a e b
-  - pushiamo il resto dentro l'arrey vuoto 
+  - pushiamo il resto dentro l'
+  arrey vuoto 
